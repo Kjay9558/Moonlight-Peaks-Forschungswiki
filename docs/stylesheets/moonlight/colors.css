@@ -1,0 +1,62 @@
+[data-md-color-scheme="moonlight"] {
+  --mp-night-deep: #111321;
+  --mp-night: #181a2b;
+  --mp-night-soft: #22243a;
+  --mp-surface: #292b42;
+  --mp-surface-hover: #343650;
+
+  --mp-moon: #f1d79a;
+  --mp-moon-bright: #ffe6a8;
+  --mp-lavender: #b7a6dc;
+  --mp-lavender-bright: #d1c4f2;
+  --mp-herb: #91ad8a;
+  --mp-berry: #c888a2;
+  --mp-water: #84b8ca;
+
+  --mp-text: #eceaf4;
+  --mp-text-muted: #b9b6c8;
+  --mp-border: #44465e;
+
+  --mp-category-general: #b7a6dc;
+  --mp-category-flora: #92b58b;
+  --mp-category-fauna: #d7b070;
+  --mp-category-insects: #c69acd;
+  --mp-category-fish: #84b8ca;
+  --mp-category-characters: #d98aa8;
+  --mp-category-quests: #e0c480;
+  --mp-category-items: #91a9ce;
+  --mp-category-locations: #ac9ed2;
+  --mp-category-magic: #b99ae6;
+
+  --mp-status-confirmed: #8ebd91;
+  --mp-status-unconfirmed: #d9b875;
+  --mp-status-datamining: #a994d4;
+  --mp-status-progress: #7eafd1;
+
+  --md-default-fg-color: var(--mp-text);
+  --md-default-fg-color--light: var(--mp-text-muted);
+  --md-default-fg-color--lighter: #8f8ca1;
+  --md-default-fg-color--lightest: #5d5b70;
+
+  --md-default-bg-color: var(--mp-night);
+  --md-default-bg-color--light: var(--mp-night-soft);
+  --md-default-bg-color--lighter: var(--mp-surface);
+  --md-default-bg-color--lightest: var(--mp-surface-hover);
+
+  --md-primary-fg-color: #292440;
+  --md-primary-fg-color--light: #393251;
+  --md-primary-fg-color--dark: #171426;
+  --md-primary-bg-color: var(--mp-text);
+
+  --md-accent-fg-color: var(--mp-moon);
+  --md-accent-fg-color--transparent: rgba(241, 215, 154, 0.14);
+
+  --md-typeset-color: var(--mp-text);
+  --md-typeset-a-color: var(--mp-lavender-bright);
+
+  --md-code-fg-color: #eeeaf7;
+  --md-code-bg-color: #121420;
+
+  --md-footer-bg-color: #10111d;
+  --md-footer-bg-color--dark: #0b0c15;
+}

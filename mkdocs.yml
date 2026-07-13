@@ -44,5 +44,12 @@ theme:
         name: Zum Moonlight-Darkmode wechseln
 plugins:
 - search
+
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/moonlight/colors.css
+  - stylesheets/moonlight/base.css
+  - stylesheets/moonlight/cards.css
+  - stylesheets/moonlight/badges.css
+  - stylesheets/moonlight/home.css
+  - stylesheets/moonlight/content.css
+  - stylesheets/moonlight/mobile.css

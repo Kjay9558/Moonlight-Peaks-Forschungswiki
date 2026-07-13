@@ -1,0 +1,47 @@
+@media screen and (max-width: 44.984375em) {
+  .mp-card-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .mp-card {
+    padding: 0.85rem;
+  }
+
+  .mp-card:hover {
+    transform: none;
+  }
+
+  .mp-research-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .mp-hero {
+    border-radius: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 22rem) {
+  .mp-card__header {
+    align-items: flex-start;
+  }
+
+  .mp-card__icon {
+    width: 2.35rem;
+    height: 2.35rem;
+  }
+
+  .mp-badge {
+    white-space: normal;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mp-card {
+    transition: none;
+  }
+
+  .mp-card:hover {
+    transform: none;
+  }
+}
