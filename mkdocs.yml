@@ -15,10 +15,10 @@ nav:
       - Insekten:
           - Übersicht: gameplay/insects/index.md
           - Fangnetz: gameplay/insects/bug-net.md
+          - Insektenarten: reference/generated/getiere.md
+          - Insekten nach Fundort: reference/generated/getiere-nach-gebiet.md
 
   - Nachschlagewerk:
-      - Getiere: reference/generated/getiere.md
-      - Getiere nach Fundort: reference/generated/getiere-nach-gebiet.md
       - Seelentropfen: reference/seelentropfen.md
       - Rezepte und Nahrung: reference/rezepte.md
       - Pflanzen und Bäume: reference/pflanzen.md

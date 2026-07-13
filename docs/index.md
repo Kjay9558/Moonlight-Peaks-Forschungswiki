@@ -28,9 +28,11 @@ Charakteren, Magie und den Geheimnissen von <em>Moonlight Peaks</em>.
       <div class="mp-card__subtitle">Pflanzen, Pilze und Feldfrüchte</div>
     </div>
   </div>
+
   <div class="mp-card__content">
     Fundorte, Jahreszeiten, Wachstum und Verwendung.
   </div>
+
   <div class="mp-card__footer">
     <span class="mp-badge mp-badge--progress">In Arbeit</span>
   </div>
@@ -41,30 +43,16 @@ Charakteren, Magie und den Geheimnissen von <em>Moonlight Peaks</em>.
     <div class="mp-card__icon">🦋</div>
     <div>
       <h3 class="mp-card__title">Insekten</h3>
-      <div class="mp-card__subtitle">Fangnetz und Fangbedingungen</div>
+      <div class="mp-card__subtitle">Fangnetz und Kompendium</div>
     </div>
   </div>
+
   <div class="mp-card__content">
-    Fangmechaniken, Fundorte, Tageszeiten und bekannte Bedingungen.
+    Fangmechanik, Insektenarten, Fundorte, Tageszeiten und bekannte Bedingungen.
   </div>
+
   <div class="mp-card__footer">
     <span class="mp-badge mp-badge--progress">In Untersuchung</span>
-  </div>
-</a>
-
-<a class="mp-card mp-card--fauna mp-card--link" href="reference/generated/getiere/">
-  <div class="mp-card__header">
-    <div class="mp-card__icon">🐾</div>
-    <div>
-      <h3 class="mp-card__title">Getiere</h3>
-      <div class="mp-card__subtitle">Bekannte Lebewesen</div>
-    </div>
-  </div>
-  <div class="mp-card__content">
-    Übersicht der bisher dokumentierten Tiere und sonstigen Kreaturen.
-  </div>
-  <div class="mp-card__footer">
-    <span class="mp-badge mp-badge--progress">Automatisch erzeugt</span>
   </div>
 </a>
 
@@ -76,9 +64,11 @@ Charakteren, Magie und den Geheimnissen von <em>Moonlight Peaks</em>.
       <div class="mp-card__subtitle">Charaktere und Beziehungen</div>
     </div>
   </div>
+
   <div class="mp-card__content">
     Aufenthaltsorte, Geschenke, Beziehungen und bekannte Aufgaben.
   </div>
+
   <div class="mp-card__footer">
     <span class="mp-badge mp-badge--progress">In Arbeit</span>
   </div>
@@ -92,9 +82,11 @@ Charakteren, Magie und den Geheimnissen von <em>Moonlight Peaks</em>.
       <div class="mp-card__subtitle">Aufgaben und Voraussetzungen</div>
     </div>
   </div>
+
   <div class="mp-card__content">
     Auslöser, Ziele, Lösungswege und bekannte Belohnungen.
   </div>
+
   <div class="mp-card__footer">
     <span class="mp-badge mp-badge--progress">In Arbeit</span>
   </div>
@@ -108,9 +100,11 @@ Charakteren, Magie und den Geheimnissen von <em>Moonlight Peaks</em>.
       <div class="mp-card__subtitle">Zauber und Forschung</div>
     </div>
   </div>
+
   <div class="mp-card__content">
     Effekte, Freischaltungen und bekannte magische Mechaniken.
   </div>
+
   <div class="mp-card__footer">
     <span class="mp-badge mp-badge--datamining">Forschung</span>
   </div>
