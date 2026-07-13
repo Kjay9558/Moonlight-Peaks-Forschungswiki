@@ -16,6 +16,12 @@ nav:
   - Datenmodell: research/datenmodell.md
   - Arbeitsablauf: research/arbeitsablauf.md
   - Importstatus: research/importstatus.md
+- Gameplay:
+      - Übersicht: gameplay/index.md
+      - Insekten:
+          - Übersicht: gameplay/insects/index.md
+          - Fangnetz: gameplay/insects/bug-net.md
+
 theme:
   name: material
   language: de
