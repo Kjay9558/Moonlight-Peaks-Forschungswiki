@@ -1,0 +1,12 @@
+project: Moonlight Peaks Forschungswiki
+version: 0.2.0
+schema_version: 1.0.0
+language: de
+game_platform: Nintendo Switch 2
+created: '2026-07-13'
+status_labels:
+  confirmed: Durch Screenshot, Video oder reproduzierbare Beobachtung bestätigt
+  probable: Mehrfach gestützt, aber noch nicht abschließend bestätigt
+  hypothesis: Arbeitshypothese
+  unknown: Noch offen
+  corrected: Frühere Angabe wurde korrigiert

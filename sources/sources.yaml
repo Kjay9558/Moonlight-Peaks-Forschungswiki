@@ -1,0 +1,12 @@
+schema_version: 1.0.0
+sources:
+- id: chat-export-2026-07-13
+  type: chat_html_export
+  title: Käfer sammeln und Fangnetz
+  date_imported: '2026-07-13'
+  original_file: Käfer sammeln und Fangnetz.htm
+  sha256: 4b3b29656750185769cf984a83d95c644238c0038ebd4507057fad9d113df26a
+  archived_at: archive/chat-export/original/
+  notes: Originalexport vollständig und unverändert archiviert. rendered_messages.jsonl
+    enthält die im HTML direkt gerenderten Nachrichten; weitere Inhalte bleiben im
+    eingebetteten Export erhalten und werden schrittweise erschlossen.

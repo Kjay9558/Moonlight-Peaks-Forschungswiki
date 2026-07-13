@@ -1,0 +1,15 @@
+# Moonlight Peaks Forschungswiki
+
+## Bereiche
+
+- [Datenmodell](research/datenmodell.md)
+- [Arbeitsablauf](research/arbeitsablauf.md)
+- [Importstatus](research/importstatus.md)
+- [Seelentropfen](reference/seelentropfen.md)
+- [Getiere](reference/getiere.md)
+- [Rezepte und Nahrung](reference/rezepte.md)
+- [Pflanzen und Bäume](reference/pflanzen.md)
+- [Zauber](reference/zauber.md)
+- [NPCs und Geschenke](reference/npcs.md)
+- [Quests und Story](reference/story.md)
+- [Spielmechaniken](guide/spielmechaniken.md)
