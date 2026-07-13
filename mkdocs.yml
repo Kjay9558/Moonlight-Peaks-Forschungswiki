@@ -16,9 +16,6 @@ nav:
   - Datenmodell: research/datenmodell.md
   - Arbeitsablauf: research/arbeitsablauf.md
   - Importstatus: research/importstatus.md
-- Vorlagen:
-    - Kompendium Übersicht: vorlagen/kompendium-uebersicht.md
-    - Kompendium Eintrag: vorlagen/kompendium-eintrag.md
 theme:
   name: material
   language: de
@@ -41,6 +38,12 @@ theme:
         name: Zum Moonlight-Darkmode wechseln
 plugins:
 - search
+
 extra_css:
-  - stylesheets/extra.css
-  - stylesheets/compendium.css
+  - stylesheets/moonlight/colors.css
+  - stylesheets/moonlight/base.css
+  - stylesheets/moonlight/cards.css
+  - stylesheets/moonlight/badges.css
+  - stylesheets/moonlight/home.css
+  - stylesheets/moonlight/content.css
+  - stylesheets/moonlight/mobile.css

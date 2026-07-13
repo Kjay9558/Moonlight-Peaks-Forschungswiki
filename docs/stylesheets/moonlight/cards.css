@@ -1,0 +1,95 @@
+.mp-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 1.75rem;
+}
+
+.mp-card {
+  --mp-card-accent: var(--mp-category-general);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 1rem;
+  overflow: hidden;
+  color: var(--md-default-fg-color);
+  background:
+    linear-gradient(145deg, color-mix(in srgb, var(--mp-card-accent) 8%, transparent), transparent 42%),
+    rgba(42, 42, 64, 0.92);
+  border: 1px solid rgba(183, 166, 220, 0.28);
+  border-top: 0.18rem solid var(--mp-card-accent);
+  border-radius: 0.8rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(5, 6, 13, 0.26);
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.mp-card:hover {
+  transform: translateY(-0.16rem);
+  border-color: color-mix(in srgb, var(--mp-card-accent) 55%, rgba(183, 166, 220, 0.28));
+  box-shadow: 0 0.7rem 1.8rem rgba(5, 6, 13, 0.34);
+}
+
+.mp-card--link {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.mp-card__header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 0;
+  margin-bottom: 0.7rem;
+}
+
+.mp-card__icon {
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  width: 2.65rem;
+  height: 2.65rem;
+  color: var(--mp-card-accent);
+  font-size: 1.45rem;
+  background: color-mix(in srgb, var(--mp-card-accent) 13%, transparent);
+  border: 1px solid color-mix(in srgb, var(--mp-card-accent) 30%, transparent);
+  border-radius: 0.72rem;
+}
+
+.mp-card__title {
+  margin: 0 !important;
+  color: var(--md-default-fg-color) !important;
+  font-size: 1.02rem;
+  line-height: 1.25;
+}
+
+.mp-card__subtitle {
+  margin-top: 0.15rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.76rem;
+}
+
+.mp-card__content {
+  flex: 1 1 auto;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.88rem;
+}
+
+.mp-card__footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.9rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(183, 166, 220, 0.13);
+}
+
+.mp-card--flora { --mp-card-accent: var(--mp-category-flora); }
+.mp-card--fauna { --mp-card-accent: var(--mp-category-fauna); }
+.mp-card--insects { --mp-card-accent: var(--mp-category-insects); }
+.mp-card--fish { --mp-card-accent: var(--mp-category-fish); }
+.mp-card--characters { --mp-card-accent: var(--mp-category-characters); }
+.mp-card--quests { --mp-card-accent: var(--mp-category-quests); }
+.mp-card--items { --mp-card-accent: var(--mp-category-items); }
+.mp-card--locations { --mp-card-accent: var(--mp-category-locations); }
+.mp-card--magic { --mp-card-accent: var(--mp-category-magic); }

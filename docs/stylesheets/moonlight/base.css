@@ -1,0 +1,54 @@
+[data-md-color-scheme="moonlight"] body {
+  background:
+    radial-gradient(circle at 85% 8%, rgba(183, 166, 220, 0.08), transparent 25rem),
+    radial-gradient(circle at 12% 90%, rgba(145, 173, 138, 0.05), transparent 30rem),
+    var(--mp-night);
+}
+
+[data-md-color-scheme="moonlight"] .md-header {
+  background: linear-gradient(90deg, #211d36 0%, #2d2746 55%, #232039 100%);
+  box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.32);
+}
+
+[data-md-color-scheme="moonlight"] .md-tabs {
+  background-color: #1d1a30;
+}
+
+[data-md-color-scheme="moonlight"] .md-nav {
+  color: var(--mp-text-muted);
+}
+
+[data-md-color-scheme="moonlight"] .md-nav__link:hover,
+[data-md-color-scheme="moonlight"] .md-nav__link:focus,
+[data-md-color-scheme="moonlight"] .md-nav__link--active {
+  color: var(--mp-moon-bright);
+}
+
+[data-md-color-scheme="moonlight"] .md-typeset h1 {
+  color: var(--mp-moon-bright);
+  border-bottom: 1px solid rgba(241, 215, 154, 0.28);
+  padding-bottom: 0.25em;
+}
+
+[data-md-color-scheme="moonlight"] .md-typeset h2 {
+  color: var(--mp-lavender-bright);
+}
+
+[data-md-color-scheme="moonlight"] .md-typeset h3,
+[data-md-color-scheme="moonlight"] .md-typeset h4 {
+  color: #d7d3e6;
+}
+
+[data-md-color-scheme="moonlight"] .md-typeset a {
+  text-decoration-color: rgba(209, 196, 242, 0.35);
+  text-underline-offset: 0.15em;
+}
+
+[data-md-color-scheme="moonlight"] .md-typeset a:hover {
+  color: var(--mp-moon-bright);
+}
+
+[data-md-color-scheme="moonlight"] ::selection {
+  color: #181421;
+  background: var(--mp-moon);
+}
