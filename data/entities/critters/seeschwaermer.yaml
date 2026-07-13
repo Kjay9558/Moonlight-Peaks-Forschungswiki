@@ -1,0 +1,16 @@
+id: critter-seeschwaermer
+name: Seeschwärmer
+status: confirmed
+platform: Nintendo Switch 2
+fields:
+  sale_price: 50
+  locations_observed:
+  - Nahe dem Ambrosia-Anwesen
+  times_observed:
+  - ca. 21:15
+  seasons_observed:
+  - Frühling
+  collection_category: Getiere
+source_refs:
+- source_id: chat-export-2026-07-13
+  note: Nahe Ambrosia um ca. 21:15 gefangen; 50 G.

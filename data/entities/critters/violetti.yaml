@@ -1,0 +1,16 @@
+id: critter-violetti
+name: Violetti
+status: confirmed
+platform: Nintendo Switch 2
+fields:
+  sale_price: 10
+  locations_observed:
+  - Farm
+  times_observed:
+  - ca. 00:00
+  seasons_observed:
+  - Frühling
+  collection_category: Getiere
+source_refs:
+- source_id: chat-export-2026-07-13
+  note: Auf der Farm ungefähr um Mitternacht gefangen; Verkaufspreis 10 G.

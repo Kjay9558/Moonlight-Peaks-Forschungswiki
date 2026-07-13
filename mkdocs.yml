@@ -1,17 +1,30 @@
 site_name: Moonlight Peaks Forschungswiki
 docs_dir: docs
 nav:
-  - Start: index.md
-  - Forschung:
-      - Datenmodell: research/datenmodell.md
-      - Arbeitsablauf: research/arbeitsablauf.md
-      - Importstatus: research/importstatus.md
-  - Spielmechaniken: guide/spielmechaniken.md
-  - Nachschlagewerk:
-      - Seelentropfen: reference/seelentropfen.md
-      - Getiere: reference/getiere.md
-      - Rezepte und Nahrung: reference/rezepte.md
-      - Pflanzen und Bäume: reference/pflanzen.md
-      - Zauber: reference/zauber.md
-      - NPCs und Geschenke: reference/npcs.md
-      - Quests und Story: reference/story.md
+- Start: index.md
+- Spielmechaniken: guide/spielmechaniken.md
+- Nachschlagewerk:
+  - Getiere: reference/generated/getiere.md
+  - Getiere nach Fundort: reference/generated/getiere-nach-gebiet.md
+  - Seelentropfen: reference/seelentropfen.md
+  - Rezepte und Nahrung: reference/rezepte.md
+  - Pflanzen und Bäume: reference/pflanzen.md
+  - Zauber: reference/zauber.md
+  - NPCs und Geschenke: reference/npcs.md
+  - Quests und Story: reference/story.md
+- Forschung:
+  - Datenmodell: research/datenmodell.md
+  - Arbeitsablauf: research/arbeitsablauf.md
+  - Importstatus: research/importstatus.md
+theme:
+  name: material
+  language: de
+  features:
+  - navigation.tabs
+  - navigation.sections
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - content.code.copy
+plugins:
+- search

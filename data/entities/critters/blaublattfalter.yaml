@@ -1,0 +1,18 @@
+id: critter-blaublattfalter
+name: Blaublattfalter
+status: confirmed
+platform: Nintendo Switch 2
+fields:
+  sale_price: 20
+  locations_observed:
+  - Nahe/Vor dem Ambrosia-Anwesen
+  times_observed:
+  - ca. 21:00
+  - 01:20
+  seasons_observed:
+  - Frühling
+  collection_category: Getiere
+source_refs:
+- source_id: chat-export-2026-07-13
+  note: Nahe dem Ambrosia-Anwesen beobachtet; erneuter Fang vor dem Anwesen um 01:20;
+    20 G.

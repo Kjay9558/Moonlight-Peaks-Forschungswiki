@@ -1,0 +1,37 @@
+name: Deploy Wiki
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Abhängigkeiten installieren
+        run: pip install -r requirements.txt
+
+      - name: Daten validieren
+        run: python scripts/validate_data.py
+
+      - name: Wiki-Seiten erzeugen
+        run: python scripts/generate_docs.py
+
+      - name: Wiki prüfen
+        run: mkdocs build --strict
+
+      - name: Wiki veröffentlichen
+        run: mkdocs gh-deploy --force

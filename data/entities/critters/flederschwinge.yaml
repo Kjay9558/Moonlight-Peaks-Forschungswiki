@@ -1,0 +1,16 @@
+id: critter-flederschwinge
+name: Flederschwinge
+status: confirmed
+platform: Nintendo Switch 2
+fields:
+  sale_price: 10
+  locations_observed:
+  - Echohöhle, Eingangsbereich
+  times_observed:
+  - 03:00
+  seasons_observed:
+  - Frühling
+  collection_category: Getiere
+source_refs:
+- source_id: chat-export-2026-07-13
+  note: Im Eingangsbereich der Echohöhle um 03:00 gefangen; 10 G.

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.0 – 2026-07-13
+
+- Getiere auf einzelne YAML-Dateien migriert.
+- Automatische Validierung ergänzt.
+- Generator für Übersichts-, Fundort- und Einzelseiten eingeführt.
+- GitHub-Action um Validierung, Generierung und strikten Build erweitert.
+- Material-Navigation aktualisiert.
+- Frühere Sammeldatei archiviert.
+
 ## 0.2.1 – 2026-07-13
 
 - Getiere als erster vollständig bearbeiteter Fachbereich begonnen.

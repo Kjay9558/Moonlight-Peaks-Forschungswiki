@@ -1,0 +1,19 @@
+id: critter-sproessli
+name: Sprössli
+status: confirmed
+platform: Nintendo Switch 2
+fields:
+  sale_price: 110
+  locations_observed:
+  - Farm
+  times_observed: []
+  seasons_observed:
+  - Frühling
+  collection_category: Getiere
+  conditions_observed:
+  - Erschien unmittelbar nach der Ernte von Reis
+source_refs:
+- source_id: chat-export-2026-07-13
+  note: Auf der Farm direkt nach Reisernte beobachtet; Verkaufspreis 110 G.
+notes: Die Reisernte ist eine beobachtete Korrelation, noch keine bestätigte allgemeine
+  Spawnbedingung.

@@ -1,0 +1,273 @@
+schema_version: 1.0.0
+entity_type: critters
+records:
+- id: critter-gepunktete-schwingen
+  name: Gepunktete Schwingen
+  status: confirmed
+  platform: Nintendo Switch 2
+  fields:
+    sale_price: 50
+    locations_observed:
+    - Farm
+    times_observed: []
+    seasons_observed:
+    - Frühling
+    collection_category: Getiere
+  source_refs:
+  - source_id: chat-export-2026-07-13
+    note: 'Screenshot und Spielerbeobachtung: auf der Farm; Verkaufspreis 50 G.'
+  notes: Ein früherer Fundort wurde nicht genauer dokumentiert.
+- id: critter-rosa-schwalbenschwanz
+  name: Rosa Schwalbenschwanz
+  status: confirmed
+  platform: Nintendo Switch 2
+  fields:
+    sale_price: 20
+    locations_observed:
+    - Stadt
+    - Mondscheinwald nahe Fledermaus-Schrein
+    - Farm
+    times_observed: []
+    seasons_observed:
+    - Frühling
+    collection_category: Getiere
+  source_refs:
+  - source_id: chat-export-2026-07-13
+    note: Mehrere Fänge; Verkaufspreis 20 G; Fundorte Stadt, westlich der Stadt und
+      Farm.
+- id: critter-violetti
+  name: Violetti
+  status: confirmed
+  platform: Nintendo Switch 2
+  fields:
+    sale_price: 10
+    locations_observed:
+    - Farm
+    times_observed:
+    - ca. 00:00
+    seasons_observed:
+    - Frühling
+    collection_category: Getiere
+  source_refs:
+  - source_id: chat-export-2026-07-13
+    note: Auf der Farm ungefähr um Mitternacht gefangen; Verkaufspreis 10 G.
+- id: critter-blaublattfalter
+  name: Blaublattfalter
+  status: confirmed
+  platform: Nintendo Switch 2
+  fields:
+    sale_price: 20
+    locations_observed:
+    - Nahe/Vor dem Ambrosia-Anwesen
+    times_observed:
+    - ca. 21:00
+    - 01:20
+    seasons_observed:
+    - Frühling
+    collection_category: Getiere
+  source_refs:
+  - source_id: chat-export-2026-07-13
+    note: Nahe dem Ambrosia-Anwesen beobachtet; erneuter Fang vor dem Anwesen um 01:20;
+      20 G.
+- id: critter-roter-schwaermer
+  name: Roter Schwärmer
+  status: confirmed
+  platform: Nintendo Switch 2
+  fields:
+    sale_price: 10
+    locations_observed:
+    - Nahe dem Ambrosia-Anwesen
+    times_observed:
+    - ca. 21:00
+    seasons_observed:
+    - Frühling
+    collection_category: Getiere
+  source_refs:
+  - source_id: chat-export-2026-07-13
+    note: Nahe Ambrosia gefangen und nach Zurücksetzen des Tages am gleichen Ort erneut
+      gefunden; 10 G.
+- id: critter-seeschwaermer
+  name: Seeschwärmer
+  status: confirmed
+  platform: Nintendo Switch 2
+  fields:
+    sale_price: 50
+    locations_observed:
+    - Nahe dem Ambrosia-Anwesen
+    times_observed:
+    - ca. 21:15
+    seasons_observed:
+    - Frühling
+    collection_category: Getiere
+  source_refs:
+  - source_id: chat-export-2026-07-13
+    note: Nahe Ambrosia um ca. 21:15 gefangen; 50 G.
+- id: critter-sproessli
+  name: Sprössli
+  status: confirmed
+  platform: Nintendo Switch 2
+  fields:
+    sale_price: 110
+    locations_observed:
+    - Farm
+    times_observed: []
+    seasons_observed:
+    - Frühling
+    collection_category: Getiere
+    conditions_observed:
+    - Erschien unmittelbar nach der Ernte von Reis
+  source_refs:
+  - source_id: chat-export-2026-07-13
+    note: Auf der Farm direkt nach Reisernte beobachtet; Verkaufspreis 110 G.
+  notes: Die Reisernte ist eine beobachtete Korrelation, noch keine bestätigte allgemeine
+    Spawnbedingung.
+- id: critter-spukseite
+  name: Spukseite
+  status: confirmed
+  platform: Nintendo Switch 2
+  fields:
+    sale_price: 40
+    locations_observed:
+    - Rathaus (innen)
+    times_observed:
+    - '20:45'
+    seasons_observed:
+    - Frühling
+    collection_category: Getiere
+  source_refs:
+  - source_id: chat-export-2026-07-13
+    note: Im Rathaus um 20:45 gefangen; 40 G.
+- id: critter-kamehameha
+  name: Kamehameha
+  status: confirmed
+  platform: Nintendo Switch 2
+  fields:
+    sale_price: 110
+    locations_observed:
+    - Wappengarten
+    times_observed:
+    - '21:00'
+    seasons_observed:
+    - Frühling
+    collection_category: Getiere
+  source_refs:
+  - source_id: chat-export-2026-07-13
+    note: Im Wappengarten um 21:00 gefangen; 110 G.
+- id: critter-frostblattfalter
+  name: Frostblattfalter
+  status: confirmed
+  platform: Nintendo Switch 2
+  fields:
+    sale_price: 25
+    locations_observed:
+    - Wappengarten
+    times_observed:
+    - '21:15'
+    seasons_observed:
+    - Frühling
+    collection_category: Getiere
+  source_refs:
+  - source_id: chat-export-2026-07-13
+    note: Im Wappengarten um 21:15 gefangen; 25 G.
+- id: critter-duesti
+  name: Düsti
+  status: confirmed
+  platform: Nintendo Switch 2
+  fields:
+    sale_price: 10
+    locations_observed:
+    - Sumpf, nahe Holzbrücke
+    times_observed:
+    - 00:40
+    seasons_observed:
+    - Frühling
+    collection_category: Getiere
+  source_refs:
+  - source_id: chat-export-2026-07-13
+    note: Im Sumpf nahe der Holzbrücke um 00:40 gefangen; 10 G.
+- id: critter-psycho
+  name: Psycho
+  status: confirmed
+  platform: Nintendo Switch 2
+  fields:
+    sale_price: 25
+    locations_observed:
+    - Sumpf, östliche Brücke
+    times_observed:
+    - ca. 01:05
+    seasons_observed:
+    - Frühling
+    collection_category: Getiere
+  source_refs:
+  - source_id: chat-export-2026-07-13
+    note: Im Sumpf auf der östlichen Brücke um ca. 01:05 gefangen; Preis vom Spieler
+      auf 25 G korrigiert.
+  history:
+  - change: sale_price
+    old: 10
+    new: 25
+    reason: Spielerkorrektur
+- id: critter-gruenling
+  name: Grünling
+  status: confirmed
+  platform: Nintendo Switch 2
+  fields:
+    sale_price: 50
+    locations_observed:
+    - Sumpf, Holzbrücke im mittleren Bereich
+    times_observed:
+    - 01:25
+    seasons_observed:
+    - Frühling
+    collection_category: Getiere
+  source_refs:
+  - source_id: chat-export-2026-07-13
+    note: Im Sumpf um 01:25 gefangen; 50 G.
+- id: critter-moosruecken
+  name: Moosrücken
+  status: confirmed
+  platform: Nintendo Switch 2
+  fields:
+    sale_price: 20
+    locations_observed:
+    - Sumpf, nördlicher Bereich am Teich
+    times_observed:
+    - 01:40
+    seasons_observed:
+    - Frühling
+    collection_category: Getiere
+  source_refs:
+  - source_id: chat-export-2026-07-13
+    note: Im nördlichen Sumpfbereich am Teich um 01:40 gefangen; 20 G.
+- id: critter-flederschwinge
+  name: Flederschwinge
+  status: confirmed
+  platform: Nintendo Switch 2
+  fields:
+    sale_price: 10
+    locations_observed:
+    - Echohöhle, Eingangsbereich
+    times_observed:
+    - 03:00
+    seasons_observed:
+    - Frühling
+    collection_category: Getiere
+  source_refs:
+  - source_id: chat-export-2026-07-13
+    note: Im Eingangsbereich der Echohöhle um 03:00 gefangen; 10 G.
+- id: critter-honigschwaermer
+  name: Honigschwärmer
+  status: confirmed
+  platform: Nintendo Switch 2
+  fields:
+    sale_price: 35
+    locations_observed:
+    - Farm
+    times_observed:
+    - '18:30'
+    seasons_observed:
+    - Frühling
+    collection_category: Getiere
+  source_refs:
+  - source_id: chat-export-2026-07-13
+    note: Auf der Farm um 18:30 gefangen; 35 G.

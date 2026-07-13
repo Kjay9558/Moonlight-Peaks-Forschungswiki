@@ -1,0 +1,16 @@
+id: critter-frostblattfalter
+name: Frostblattfalter
+status: confirmed
+platform: Nintendo Switch 2
+fields:
+  sale_price: 25
+  locations_observed:
+  - Wappengarten
+  times_observed:
+  - '21:15'
+  seasons_observed:
+  - Frühling
+  collection_category: Getiere
+source_refs:
+- source_id: chat-export-2026-07-13
+  note: Im Wappengarten um 21:15 gefangen; 25 G.

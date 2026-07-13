@@ -1,0 +1,16 @@
+id: critter-honigschwaermer
+name: Honigschwärmer
+status: confirmed
+platform: Nintendo Switch 2
+fields:
+  sale_price: 35
+  locations_observed:
+  - Farm
+  times_observed:
+  - '18:30'
+  seasons_observed:
+  - Frühling
+  collection_category: Getiere
+source_refs:
+- source_id: chat-export-2026-07-13
+  note: Auf der Farm um 18:30 gefangen; 35 G.

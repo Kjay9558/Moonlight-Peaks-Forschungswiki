@@ -1,0 +1,18 @@
+id: critter-rosa-schwalbenschwanz
+name: Rosa Schwalbenschwanz
+status: confirmed
+platform: Nintendo Switch 2
+fields:
+  sale_price: 20
+  locations_observed:
+  - Stadt
+  - Mondscheinwald nahe Fledermaus-Schrein
+  - Farm
+  times_observed: []
+  seasons_observed:
+  - Frühling
+  collection_category: Getiere
+source_refs:
+- source_id: chat-export-2026-07-13
+  note: Mehrere Fänge; Verkaufspreis 20 G; Fundorte Stadt, westlich der Stadt und
+    Farm.

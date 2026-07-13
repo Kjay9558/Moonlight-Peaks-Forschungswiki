@@ -1,0 +1,16 @@
+id: critter-gruenling
+name: Grünling
+status: confirmed
+platform: Nintendo Switch 2
+fields:
+  sale_price: 50
+  locations_observed:
+  - Sumpf, Holzbrücke im mittleren Bereich
+  times_observed:
+  - 01:25
+  seasons_observed:
+  - Frühling
+  collection_category: Getiere
+source_refs:
+- source_id: chat-export-2026-07-13
+  note: Im Sumpf um 01:25 gefangen; 50 G.
