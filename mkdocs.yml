@@ -16,6 +16,9 @@ nav:
   - Datenmodell: research/datenmodell.md
   - Arbeitsablauf: research/arbeitsablauf.md
   - Importstatus: research/importstatus.md
+- Vorlagen:
+    - Kompendium Übersicht: vorlagen/kompendium-uebersicht.md
+    - Kompendium Eintrag: vorlagen/kompendium-eintrag.md
 theme:
   name: material
   language: de
@@ -40,3 +43,4 @@ plugins:
 - search
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/compendium.css
