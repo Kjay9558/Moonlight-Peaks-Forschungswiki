@@ -1,26 +1,35 @@
 site_name: Moonlight Peaks Forschungswiki
+site_description: Deutschsprachiges Forschungswiki zu Moonlight Peaks
+site_url: https://kjay9558.github.io/Moonlight-Peaks-Forschungswiki/
+
 docs_dir: docs
+
 nav:
-- Start: index.md
-- Spielmechaniken: guide/spielmechaniken.md
-- Nachschlagewerk:
-  - Getiere: reference/generated/getiere.md
-  - Getiere nach Fundort: reference/generated/getiere-nach-gebiet.md
-  - Seelentropfen: reference/seelentropfen.md
-  - Rezepte und Nahrung: reference/rezepte.md
-  - Pflanzen und Bäume: reference/pflanzen.md
-  - Zauber: reference/zauber.md
-  - NPCs und Geschenke: reference/npcs.md
-  - Quests und Story: reference/story.md
-- Forschung:
-  - Datenmodell: research/datenmodell.md
-  - Arbeitsablauf: research/arbeitsablauf.md
-  - Importstatus: research/importstatus.md
-- Gameplay:
+  - Start: index.md
+
+  - Spielmechaniken:
+      - Übersicht: guide/spielmechaniken.md
+
+  - Gameplay:
       - Übersicht: gameplay/index.md
       - Insekten:
           - Übersicht: gameplay/insects/index.md
           - Fangnetz: gameplay/insects/bug-net.md
+
+  - Nachschlagewerk:
+      - Getiere: reference/generated/getiere.md
+      - Getiere nach Fundort: reference/generated/getiere-nach-gebiet.md
+      - Seelentropfen: reference/seelentropfen.md
+      - Rezepte und Nahrung: reference/rezepte.md
+      - Pflanzen und Bäume: reference/pflanzen.md
+      - Zauber: reference/zauber.md
+      - NPCs und Geschenke: reference/npcs.md
+      - Quests und Story: reference/story.md
+
+  - Forschung:
+      - Datenmodell: research/datenmodell.md
+      - Arbeitsablauf: research/arbeitsablauf.md
+      - Importstatus: research/importstatus.md
 
 theme:
   name: material
@@ -29,6 +38,8 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.top
+    - content.tooltips
 
   palette:
     - scheme: moonlight
@@ -42,8 +53,21 @@ theme:
       toggle:
         icon: material/weather-night
         name: Zum Moonlight-Darkmode wechseln
+
 plugins:
-- search
+  - search:
+      lang: de
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_css:
   - stylesheets/moonlight/colors.css
@@ -53,8 +77,3 @@ extra_css:
   - stylesheets/moonlight/home.css
   - stylesheets/moonlight/content.css
   - stylesheets/moonlight/mobile.css
-  
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences

@@ -1,19 +1,28 @@
-<div class="mp-hero">
-  <div class="mp-hero__symbol" aria-hidden="true">☾</div>
-  <h1 class="mp-hero__title">Moonlight Peaks Forschungswiki</h1>
-  <p class="mp-hero__text">
-    Ein gemeinschaftliches Forschungswiki zu Spielmechaniken, Fundorten,
-    Charakteren, Magie und allen Geheimnissen von Moonlight Peaks.
-  </p>
+---
+title: Startseite
+description: Startseite des deutschsprachigen Moonlight Peaks Forschungswikis.
+---
+
+<div class="mp-hero" markdown>
+
+<div class="mp-hero__symbol">☾</div>
+
+<h1 class="mp-hero__title">Moonlight Peaks Forschungswiki</h1>
+
+<p class="mp-hero__text">
+Ein deutschsprachiges Forschungswiki zu Spielmechaniken, Fundorten,
+Charakteren, Magie und den Geheimnissen von <em>Moonlight Peaks</em>.
+</p>
+
 </div>
 
-## <span class="mp-section-title">Kompendium</span>
+<h2 class="mp-section-title">Kompendium</h2>
 
 <div class="mp-card-grid">
 
-<a class="mp-card mp-card--link mp-card--flora" href="flora/">
+<a class="mp-card mp-card--flora mp-card--link" href="reference/pflanzen/">
   <div class="mp-card__header">
-    <div class="mp-card__icon" aria-hidden="true">🌿</div>
+    <div class="mp-card__icon">🌿</div>
     <div>
       <h3 class="mp-card__title">Flora</h3>
       <div class="mp-card__subtitle">Pflanzen, Pilze und Feldfrüchte</div>
@@ -27,102 +36,111 @@
   </div>
 </a>
 
-<a class="mp-card mp-card--link mp-card--insects" href="kaefer/">
+<a class="mp-card mp-card--insects mp-card--link" href="gameplay/insects/">
   <div class="mp-card__header">
-    <div class="mp-card__icon" aria-hidden="true">🐞</div>
+    <div class="mp-card__icon">🦋</div>
     <div>
-      <h3 class="mp-card__title">Käfer</h3>
-      <div class="mp-card__subtitle">Arten und Fangbedingungen</div>
+      <h3 class="mp-card__title">Insekten</h3>
+      <div class="mp-card__subtitle">Fangnetz und Fangbedingungen</div>
     </div>
   </div>
   <div class="mp-card__content">
-    Tageszeiten, Wetter, Fundgebiete und Fangmethoden.
+    Fangmechaniken, Fundorte, Tageszeiten und bekannte Bedingungen.
   </div>
   <div class="mp-card__footer">
-    <span class="mp-badge mp-badge--confirmed">Erste Daten bestätigt</span>
+    <span class="mp-badge mp-badge--progress">In Untersuchung</span>
   </div>
 </a>
 
-<a class="mp-card mp-card--link mp-card--fish" href="fische/">
+<a class="mp-card mp-card--fauna mp-card--link" href="reference/generated/getiere/">
   <div class="mp-card__header">
-    <div class="mp-card__icon" aria-hidden="true">🐟</div>
+    <div class="mp-card__icon">🐾</div>
     <div>
-      <h3 class="mp-card__title">Fische</h3>
-      <div class="mp-card__subtitle">Gewässer und Fangzeiten</div>
+      <h3 class="mp-card__title">Getiere</h3>
+      <div class="mp-card__subtitle">Bekannte Lebewesen</div>
     </div>
   </div>
   <div class="mp-card__content">
-    Angelorte, Seltenheit und bekannte Bedingungen.
+    Übersicht der bisher dokumentierten Tiere und sonstigen Kreaturen.
+  </div>
+  <div class="mp-card__footer">
+    <span class="mp-badge mp-badge--progress">Automatisch erzeugt</span>
   </div>
 </a>
 
-<a class="mp-card mp-card--link mp-card--characters" href="bewohner/">
+<a class="mp-card mp-card--characters mp-card--link" href="reference/npcs/">
   <div class="mp-card__header">
-    <div class="mp-card__icon" aria-hidden="true">♥</div>
+    <div class="mp-card__icon">♥</div>
     <div>
       <h3 class="mp-card__title">Bewohner</h3>
-      <div class="mp-card__subtitle">Personen und Beziehungen</div>
+      <div class="mp-card__subtitle">Charaktere und Beziehungen</div>
     </div>
   </div>
   <div class="mp-card__content">
-    Aufenthaltsorte, Geschenke, Beziehungen und Quests.
+    Aufenthaltsorte, Geschenke, Beziehungen und bekannte Aufgaben.
+  </div>
+  <div class="mp-card__footer">
+    <span class="mp-badge mp-badge--progress">In Arbeit</span>
   </div>
 </a>
 
-<a class="mp-card mp-card--link mp-card--quests" href="quests/">
+<a class="mp-card mp-card--quests mp-card--link" href="reference/story/">
   <div class="mp-card__header">
-    <div class="mp-card__icon" aria-hidden="true">📜</div>
+    <div class="mp-card__icon">📜</div>
     <div>
       <h3 class="mp-card__title">Quests</h3>
       <div class="mp-card__subtitle">Aufgaben und Voraussetzungen</div>
     </div>
   </div>
   <div class="mp-card__content">
-    Auslöser, Ziele, Lösungswege und Belohnungen.
+    Auslöser, Ziele, Lösungswege und bekannte Belohnungen.
+  </div>
+  <div class="mp-card__footer">
+    <span class="mp-badge mp-badge--progress">In Arbeit</span>
   </div>
 </a>
 
-<a class="mp-card mp-card--link mp-card--magic" href="magie/">
+<a class="mp-card mp-card--magic mp-card--link" href="reference/zauber/">
   <div class="mp-card__header">
-    <div class="mp-card__icon" aria-hidden="true">✦</div>
+    <div class="mp-card__icon">✦</div>
     <div>
       <h3 class="mp-card__title">Magie</h3>
-      <div class="mp-card__subtitle">Zauber, Tränke und Forschung</div>
+      <div class="mp-card__subtitle">Zauber und Forschung</div>
     </div>
   </div>
   <div class="mp-card__content">
-    Rezepte, Effekte, Zutaten und Freischaltungen.
+    Effekte, Freischaltungen und bekannte magische Mechaniken.
   </div>
   <div class="mp-card__footer">
-    <span class="mp-badge mp-badge--datamining">Datamining möglich</span>
+    <span class="mp-badge mp-badge--datamining">Forschung</span>
   </div>
 </a>
 
 </div>
 
-## <span class="mp-section-title">Forschungsstand</span>
+<h2 class="mp-section-title">Forschungsstand</h2>
 
 <div class="mp-research-panel">
 
 <div class="mp-research-item">
-  <strong>Bestätigt</strong>
-  Direkt im Spiel reproduzierbare Informationen.
+<strong>✅ Bestätigt</strong>
+Direkt im Spiel reproduzierbare oder zuverlässig belegte Informationen.
 </div>
 
 <div class="mp-research-item">
-  <strong>Unbestätigt</strong>
-  Beobachtungen, die noch weiter geprüft werden müssen.
+<strong>🧪 In Untersuchung</strong>
+Beobachtungen, deren genaue Bedingungen noch geprüft werden.
 </div>
 
 <div class="mp-research-item">
-  <strong>In Arbeit</strong>
-  Bereiche, die aktuell systematisch erfasst werden.
+<strong>🔄 In Arbeit</strong>
+Bereiche, die aktuell systematisch erfasst oder importiert werden.
 </div>
 
 </div>
 
 ## Über dieses Wiki
 
-Dieses Wiki dokumentiert Erkenntnisse strukturiert, nachvollziehbar und möglichst
-versionsgenau. Unsichere oder aus Datamining stammende Informationen werden klar
-gekennzeichnet.
+Dieses Wiki dokumentiert Erkenntnisse strukturiert, nachvollziehbar und möglichst versionsgenau.
+
+Unsichere Informationen, Community-Beobachtungen und Ergebnisse aus Datamining werden ausdrücklich gekennzeichnet.
