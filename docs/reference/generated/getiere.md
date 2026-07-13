@@ -1,4 +1,9 @@
-# Getiere
+---
+title: Insektenarten
+description: Übersicht aller bisher dokumentierten Insektenarten in Moonlight Peaks.
+---
+
+# Insektenarten
 
 **Erfasste Arten:** 16 / 95
 
@@ -6,7 +11,7 @@
 
 ## Übersicht nach Verkaufspreis
 
-| Getier | Verkauf | Fundorte | Uhrzeiten | Status |
+| Insekt | Verkauf | Fundorte | Uhrzeiten | Status |
 |---|---:|---|---|---|
 | [Kamehameha](getiere/kamehameha.md) | 110 G | Wappengarten | 21:00 | ✅ bestätigt |
 | [Sprössli](getiere/sproessli.md) | 110 G | Farm | nicht genauer dokumentiert | ✅ bestätigt |
@@ -24,3 +29,9 @@
 | [Flederschwinge](getiere/flederschwinge.md) | 10 G | Echohöhle, Eingangsbereich | 03:00 | ✅ bestätigt |
 | [Roter Schwärmer](getiere/roter-schwaermer.md) | 10 G | Nahe dem Ambrosia-Anwesen | ca. 21:00 | ✅ bestätigt |
 | [Violetti](getiere/violetti.md) | 10 G | Farm | ca. 00:00 | ✅ bestätigt |
+
+## Siehe auch
+
+- [Insektenübersicht](../../gameplay/insects/index.md)
+- [Fangnetz](../../gameplay/insects/bug-net.md)
+- [Insekten nach Fundort](getiere-nach-gebiet.md)

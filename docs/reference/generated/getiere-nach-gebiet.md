@@ -1,4 +1,9 @@
-# Getiere nach Fundort
+---
+title: Insekten nach Fundort
+description: Nach Fundorten sortierte Übersicht der dokumentierten Insekten in Moonlight Peaks.
+---
+
+# Insekten nach Fundort
 
 ## Echohöhle, Eingangsbereich
 
@@ -53,3 +58,9 @@
 
 - [Frostblattfalter](getiere/frostblattfalter.md) — 25 G
 - [Kamehameha](getiere/kamehameha.md) — 110 G
+
+## Siehe auch
+
+- [Insektenübersicht](../../gameplay/insects/index.md)
+- [Insektenarten](getiere.md)
+- [Fangnetz](../../gameplay/insects/bug-net.md)
