@@ -53,3 +53,8 @@ extra_css:
   - stylesheets/moonlight/home.css
   - stylesheets/moonlight/content.css
   - stylesheets/moonlight/mobile.css
+  
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences

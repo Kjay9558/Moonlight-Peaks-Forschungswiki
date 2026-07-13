@@ -45,3 +45,17 @@
     transform: none;
   }
 }
+
+/* Admonitions auf Smartphones */
+@media screen and (max-width: 44.984375em) {
+  .md-typeset .warning > .admonition-title,
+  .md-typeset .warning > summary {
+    padding-right: 0.9rem;
+  }
+
+  .md-typeset .admonition.warning > :not(.admonition-title),
+  .md-typeset details.warning > :not(summary) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

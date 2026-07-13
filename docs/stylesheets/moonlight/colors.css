@@ -1,3 +1,9 @@
+:root {
+  --moonlight-warning: #f1b84b;
+  --moonlight-warning-border: rgba(235, 174, 63, 0.78);
+  --moonlight-warning-bg-start: rgba(66, 50, 27, 0.72);
+  --moonlight-warning-bg-end: rgba(31, 29, 34, 0.94);
+}
 [data-md-color-scheme="moonlight"] {
   --mp-night-deep: #111321;
   --mp-night: #181a2b;

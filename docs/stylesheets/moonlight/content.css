@@ -1,3 +1,13 @@
+/* =========================================================
+   Moonlight Theme – Inhaltsbereich
+   Tabellen, Zitate und Hinweisboxen
+   ========================================================= */
+
+
+/* =========================================================
+   Tabellen
+   ========================================================= */
+
 [data-md-color-scheme="moonlight"] .md-typeset table:not([class]) {
   background-color: rgba(41, 43, 66, 0.72);
   border: 1px solid var(--mp-border);
@@ -15,15 +25,318 @@
   border-color: var(--mp-border);
 }
 
+
+/* =========================================================
+   Zitate
+   ========================================================= */
+
 [data-md-color-scheme="moonlight"] .md-typeset blockquote {
-  color: var(--mp-text-muted);
-  border-left-color: var(--mp-lavender);
-  background: rgba(183, 166, 220, 0.06);
   padding: 0.5rem 0.8rem;
+  color: var(--mp-text-muted);
+  background: rgba(183, 166, 220, 0.06);
+  border-left-color: var(--mp-lavender);
 }
+
+
+/* =========================================================
+   Admonitions – gemeinsamer Grundstil
+   ========================================================= */
 
 [data-md-color-scheme="moonlight"] .md-typeset .admonition,
 [data-md-color-scheme="moonlight"] .md-typeset details {
+  overflow: hidden;
   background-color: rgba(41, 43, 66, 0.88);
   border-color: var(--mp-lavender);
+  border-radius: 0.75rem;
+  box-shadow:
+    0 0.25rem 1rem rgba(0, 0, 0, 0.22),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.025);
+}
+
+
+/* =========================================================
+   Warnung / Forschungsstatus
+   ========================================================= */
+
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .admonition.warning,
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  details.warning {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(66, 50, 27, 0.72),
+      rgba(31, 29, 34, 0.94)
+    );
+  border: 1px solid rgba(235, 174, 63, 0.78);
+}
+
+
+/* Titelbereich */
+
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .warning
+  > .admonition-title,
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .warning
+  > summary {
+  position: relative;
+  margin: 0;
+  padding: 1rem 1.25rem 0.85rem 3.25rem;
+
+  color: #f1b84b;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+
+  background: rgba(235, 174, 63, 0.06);
+  border-bottom: 1px solid rgba(235, 174, 63, 0.18);
+}
+
+
+/* Warnsymbol */
+
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .warning
+  > .admonition-title::before,
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .warning
+  > summary::before {
+  top: 1rem;
+  left: 1.15rem;
+
+  width: 1.45rem;
+  height: 1.45rem;
+
+  background-color: #f1b84b;
+}
+
+
+/* Inhalt der Warnbox */
+
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .admonition.warning
+  > :not(.admonition-title),
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  details.warning
+  > :not(summary) {
+  margin-right: 1.25rem;
+  margin-left: 1.25rem;
+}
+
+
+/* Erster Absatz */
+
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .admonition.warning
+  > .admonition-title
+  + p,
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  details.warning
+  > summary
+  + p {
+  margin-top: 1rem;
+}
+
+
+/* Letztes Element */
+
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .admonition.warning
+  > :last-child,
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  details.warning
+  > :last-child {
+  margin-bottom: 1.15rem;
+}
+
+
+/* =========================================================
+   Weitere Admonition-Typen
+   ========================================================= */
+
+
+/* Bestätigte Information */
+
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .admonition.success,
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  details.success {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(29, 65, 53, 0.72),
+      rgba(27, 32, 37, 0.94)
+    );
+  border-color: rgba(90, 196, 145, 0.72);
+}
+
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .success
+  > .admonition-title,
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .success
+  > summary {
+  color: #71d6a8;
+  background: rgba(90, 196, 145, 0.07);
+}
+
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .success
+  > .admonition-title::before,
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .success
+  > summary::before {
+  background-color: #71d6a8;
+}
+
+
+/* Beobachtung / Information */
+
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .admonition.info,
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  details.info {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(36, 54, 81, 0.76),
+      rgba(28, 30, 43, 0.94)
+    );
+  border-color: rgba(122, 176, 235, 0.7);
+}
+
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .info
+  > .admonition-title,
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .info
+  > summary {
+  color: #91c6f4;
+  background: rgba(122, 176, 235, 0.07);
+}
+
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .info
+  > .admonition-title::before,
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .info
+  > summary::before {
+  background-color: #91c6f4;
+}
+
+
+/* Veraltete oder kritische Information */
+
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .admonition.danger,
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  details.danger {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(75, 34, 45, 0.75),
+      rgba(32, 27, 34, 0.94)
+    );
+  border-color: rgba(226, 100, 126, 0.72);
+}
+
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .danger
+  > .admonition-title,
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .danger
+  > summary {
+  color: #ef8ca0;
+  background: rgba(226, 100, 126, 0.07);
+}
+
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .danger
+  > .admonition-title::before,
+[data-md-color-scheme="moonlight"]
+  .md-typeset
+  .danger
+  > summary::before {
+  background-color: #ef8ca0;
+}
+
+
+/* =========================================================
+   Smartphone-Darstellung
+   ========================================================= */
+
+@media screen and (max-width: 44.984375em) {
+  [data-md-color-scheme="moonlight"]
+    .md-typeset
+    .warning
+    > .admonition-title,
+  [data-md-color-scheme="moonlight"]
+    .md-typeset
+    .warning
+    > summary {
+    padding:
+      0.85rem
+      0.9rem
+      0.75rem
+      2.85rem;
+
+    font-size: 0.95rem;
+  }
+
+  [data-md-color-scheme="moonlight"]
+    .md-typeset
+    .warning
+    > .admonition-title::before,
+  [data-md-color-scheme="moonlight"]
+    .md-typeset
+    .warning
+    > summary::before {
+    top: 0.85rem;
+    left: 0.9rem;
+
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+
+  [data-md-color-scheme="moonlight"]
+    .md-typeset
+    .admonition.warning
+    > :not(.admonition-title),
+  [data-md-color-scheme="moonlight"]
+    .md-typeset
+    details.warning
+    > :not(summary) {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
 }
