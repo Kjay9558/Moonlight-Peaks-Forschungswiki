@@ -9,3 +9,11 @@
 - Status: **Rohimport begonnen**
 
 Der Originalexport bleibt vollständig erhalten. Die fachliche Extraktion in Beobachtungen und Entitäten erfolgt schrittweise, damit Korrekturen und Quellen sauber zugeordnet werden.
+
+
+## Fachimport: Getiere
+
+- Status: **begonnen**
+- Bestätigte Datensätze: **16**
+- Enthalten: Name, Verkaufspreis, beobachtete Orte, beobachtete Uhrzeiten, Hinweise und Quellenreferenzen
+- Noch offen: Bildzuordnung, exakte Chatturn-Referenzen und weitere bislang nicht dokumentierte Arten
