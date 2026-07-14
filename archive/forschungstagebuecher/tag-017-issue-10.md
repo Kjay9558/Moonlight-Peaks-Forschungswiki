@@ -1,7 +1,7 @@
 <!--
 source_issue: 10
 source_url: https://github.com/Kjay9558/Moonlight-Peaks-Forschungswiki/issues/10
-archived_at: 2026-07-14T16:04:17.813Z
+archived_at: 2026-07-14T16:19:05.358Z
 source_type: github_issue
 archive_status: originalquelle
 -->
