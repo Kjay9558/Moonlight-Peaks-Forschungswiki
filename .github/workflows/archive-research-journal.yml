@@ -1,0 +1,99 @@
+name: Forschungstagebuch archivieren
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  archive:
+    if: startsWith(github.event.issue.title, '[Forschungstagebuch]')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Archivdatei und Pull Request erzeugen
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            const dayMatch = issue.title.match(/Tag\s*(\d+)/i);
+            const day = dayMatch ? dayMatch[1].padStart(3, '0') : `issue-${issue.number}`;
+            const branch = `research-import/issue-${issue.number}`;
+            const path = `archive/forschungstagebuecher/tag-${day}-issue-${issue.number}.md`;
+
+            const repository = await github.rest.repos.get({ owner, repo });
+            const base = repository.data.default_branch;
+            const baseRef = await github.rest.git.getRef({
+              owner,
+              repo,
+              ref: `heads/${base}`
+            });
+
+            await github.rest.git.createRef({
+              owner,
+              repo,
+              ref: `refs/heads/${branch}`,
+              sha: baseRef.data.object.sha
+            });
+
+            const sourceUrl = issue.html_url;
+            const archivedAt = new Date().toISOString();
+            const content = [
+              '---',
+              `source_issue: ${issue.number}`,
+              `source_url: ${sourceUrl}`,
+              `archived_at: ${archivedAt}`,
+              'source_type: github_issue',
+              'research_status: raw',
+              '---',
+              '',
+              `# ${issue.title}`,
+              '',
+              '> Unveränderte Originalquelle aus dem zugehörigen GitHub-Issue.',
+              '',
+              issue.body || '',
+              ''
+            ].join('\n');
+
+            await github.rest.repos.createOrUpdateFileContents({
+              owner,
+              repo,
+              path,
+              message: `archive: Forschungstagebuch Tag ${day} aus Issue #${issue.number}`,
+              content: Buffer.from(content, 'utf8').toString('base64'),
+              branch
+            });
+
+            const pull = await github.rest.pulls.create({
+              owner,
+              repo,
+              title: `Forschungstagebuch Tag ${day} archivieren`,
+              head: branch,
+              base,
+              body: [
+                `Archiviert die Forschungsnotiz aus #${issue.number}.`,
+                '',
+                '## Prüfung',
+                '- [ ] Spieltag und Dateiname stimmen',
+                '- [ ] Inhalt ist vollständig',
+                '- [ ] Unsichere Angaben wurden nicht entfernt',
+                '- [ ] Anhänge und Screenshots sind ausreichend beschrieben',
+                '',
+                'Dieser Pull Request verändert noch keine konsolidierten Wiki-Daten.'
+              ].join('\n'),
+              draft: true
+            });
+
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: issue.number,
+              body: `Die Forschungsnotiz wurde als Draft-PR #${pull.data.number} vorbereitet: ${pull.data.html_url}`
+            });
