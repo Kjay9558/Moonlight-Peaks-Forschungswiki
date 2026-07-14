@@ -1,0 +1,55 @@
+name: Forschungstag archivieren
+description: Eine abgeschlossene Forschungsnotiz sicher im Repository archivieren
+title: "[Forschungstagebuch] Tag "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Füge hier die vollständige, von ChatGPT erzeugte Forschungsnotiz ein. Nach dem Absenden erstellt GitHub automatisch einen Pull Request mit der Archivdatei.
+
+  - type: input
+    id: spieltag
+    attributes:
+      label: Spieltag
+      description: Nummer des Spieltags, zum Beispiel 19
+      placeholder: "19"
+    validations:
+      required: true
+
+  - type: input
+    id: datum
+    attributes:
+      label: Reales Datum
+      description: Datum der Spielsitzung im Format JJJJ-MM-TT, soweit bekannt
+      placeholder: "2026-07-14"
+    validations:
+      required: false
+
+  - type: textarea
+    id: forschungsnotiz
+    attributes:
+      label: Vollständige Forschungsnotiz
+      description: Nichts auslassen; auch unsichere, unvollständige oder widersprüchliche Beobachtungen aufnehmen.
+      placeholder: |
+        # Forschungstagebuch – Tag 19
+
+        ## Tagesverlauf
+        ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: anhaenge
+    attributes:
+      label: Hinweise zu Screenshots und Anhängen
+      description: Optional. Dateinamen, Beschreibungen oder noch offene Zuordnungen.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: bestaetigung
+    attributes:
+      label: Bestätigung
+      options:
+        - label: Die Notiz soll unverändert als Originalquelle archiviert werden.
+          required: true
